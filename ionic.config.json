@@ -1,0 +1,7 @@
+{
+  "name": "Best Color Blindness Test",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
