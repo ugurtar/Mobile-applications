@@ -1,0 +1,16 @@
+<ion-content>
+  <ion-card class="cardElement">
+  <div class="card">
+    <img [src]="cards[selectedCardIndex].img" />
+  </div>
+  <div style="text-align: center;">
+    <ion-label  id="lblTestStart" style="white-space: pre-wrap; color: black; font-size:25px;">Please click what thing you see</ion-label>
+  </div>
+  <div class="buttonClass">
+  <ion-button (click)="logEvent($event,1)" id="button1">3</ion-button>
+  <ion-button (click)="logEvent($event,2)" id="button2">5</ion-button>
+  <ion-button (click)="logEvent($event,3)" id="button3">15</ion-button>
+  <ion-button (click)="logEvent($event,4)" id="button4">NOTHING</ion-button>
+</div>
+</ion-card>
+</ion-content>

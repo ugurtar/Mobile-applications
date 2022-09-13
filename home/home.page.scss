@@ -1,0 +1,18 @@
+ion-content{
+     --background: lightgrey;
+    // --background-image: url("https://assileye.com/blog/wp-content/uploads/2021/10/color-blind-wide.jpg");
+}
+
+.flex-parent {
+  display: flex;
+}
+
+.jc-center {
+  justify-content: center;
+}
+
+.cardElement {
+  align-content: center;
+  
+  margin-top: 50%;
+}
